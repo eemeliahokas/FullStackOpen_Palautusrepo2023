@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVlbWVsaWFob2thcyIsImlkIjoiNjQ0Y2Y3MGNiOGEwYmZjOWZmNWRmZDM2IiwiaWF0IjoxNjgzMDYwMzA3fQ.JHuuL_nWQ533WoHGuOSOOxvMzVrg_2CimljUfgvz-DA
+
+{
+"title": "haha",
+"author": "juu",
+"url": "fullstackbläg.com",
+"likes": 2222
+}
